@@ -33,6 +33,7 @@ class fuckPPD():
     def __init__(self):
         self.s = requests.Session()
         self.s.headers = headers
+        self.s.verify = False # Unable SSL verify
         requests.adapters.DEFAULT_RETRIES = 5
 
     def get_page(self,url):
