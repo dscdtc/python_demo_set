@@ -1,0 +1,5 @@
+beautifulsoup4==4.6.0
+bs4==0.0.1
+html5lib==1.0b10
+pyopenssl==17.5.0
+requests==2.18.4
