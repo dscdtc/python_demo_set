@@ -1,0 +1,8 @@
+scrapy startproject XXXX
+
+scrapy genspider -l
+scrapy genspider -d basic
+scrapy genspider -t basic example example.com
+
+scrapy crawl dmoz
+scrapy crawl dmoz -o items.json
